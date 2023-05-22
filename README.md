@@ -7,11 +7,13 @@ MicroRCA requires data collected from application-level (response times between 
 
 #### Presequisite
 * python 3+
-* [nx](https://networkx.github.io/documentation/stable/index.html)
+* [nx](https://networkx.github.io/documentation/stable/index.html) 
+`pip3 install networkx[default]`
 * sklearn-learn
+`pip3 install -U scikit-learn`
 
 #### 1. Clone the Repository
-`git clone https://github.com/elastisys/MicroRCA.git`
+`git clone https://github.com/lkrumpak/MicroRCA.git`
 
 #### 2. Customize the prefix of files
 Change the `folder`, `faults_types` and the `file name` of csv files accordingly
